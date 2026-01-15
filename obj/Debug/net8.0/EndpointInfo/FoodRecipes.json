@@ -1,0 +1,31 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "FoodRecipes",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Receitas/buscarReceitas": {
+      "get": {
+        "tags": [
+          "Receitas"
+        ],
+        "parameters": [
+          {
+            "name": "prato",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

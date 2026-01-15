@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "FoodRecipes.Controllers.ReceitasController",
+    "Method": "BuscarReceitas",
+    "RelativePath": "api/Receitas/buscarReceitas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prato",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
